@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "android-push",
-    "slug": "android-push",
+    "name": "investengine-android-push",
+    "slug": "investengine-android-push",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +20,10 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "versionCode": 1,
+      "package": "com.investengine.appx",
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"

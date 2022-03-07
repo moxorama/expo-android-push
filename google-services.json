@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641060001386",
+    "project_id": "investengine-x",
+    "storage_bucket": "investengine-x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641060001386:android:755da82ba00e7170409c13",
+        "android_client_info": {
+          "package_name": "com.investengine.appx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641060001386-5b92kd3d5mkak1leg81fismdbocoage8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlwJld3Ah7lOGkz__3u9TM8r027Iu_8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641060001386-5b92kd3d5mkak1leg81fismdbocoage8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
