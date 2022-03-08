@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, Text, View, Alert, TextInput } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import { useEffect } from 'react';
 
@@ -61,6 +61,13 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
+      <TextInput value={token} style={{
+        marginVertical: 4,
+        width: '80%', 
+        height: 32, 
+        borderWidth: StyleSheet.hairlineWidth, 
+        borderColor: '#000'
+      }}/>
       <StatusBar style="auto" />
     </View>
   );
